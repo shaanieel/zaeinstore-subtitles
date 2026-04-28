@@ -1,0 +1,10 @@
+# Subtitle storage
+
+Auto-extracted .vtt files are committed here by the zaeinstore-processor GitHub Actions runner.
+
+Structure:
+- `subtitles/{slug}/movie_{lang}.vtt` for movies
+- `subtitles/{slug}/s{NN}/E{NN}_{lang}.vtt` for series
+
+Files are served via jsDelivr CDN at:
+https://cdn.jsdelivr.net/gh/{owner}/{repo}@latest/subtitles/...
